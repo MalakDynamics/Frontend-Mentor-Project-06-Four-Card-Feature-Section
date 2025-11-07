@@ -1,3 +1,81 @@
+/* poppins-200 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/poppins-v24-latin-200.woff2') format('woff2'); 
+}
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v24-latin-regular.woff2') format('woff2'); 
+}
+/* poppins-600 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v24-latin-600.woff2') format('woff2'); 
+}
+
+:root {
+    /* color */
+    --grey-500: #4D4F62;
+    --grey-400: #6A7178;
+    --white: #FFFFFF;
+    --red: #EA5454;
+    --cyan: #44D3D2;
+    --blue: #549EF2;
+    --orange: #FCAE4A;
+
+    /* spacing */
+    --spacing-1: 0.5rem;
+    --spacing-2: 1.0rem;
+    --spacing-3: 1.5rem;
+    --spacing-4: 2.0rem;
+    --spacing-5: 2.5rem;
+
+    /* fonts */
+    --font-size-1: 0.8125rem;   /* 13px */
+    --font-size-2: 0.9375rem;   /* 15px */
+    --font-size-3: 1.25rem;     /* 20px */
+    --font-size-4: 2.25rem;     /* 36px */
+
+    --font-weight-semibold: 600;
+    --font-weight-regular: 400;
+    --font-weight-light: 200;
+
+    --line-height-large: 160%;
+    --line-height-middle: 140%;
+    --line-height-small: 135%;
+
+    --letter-spacing-none: 0rem;
+    --letter-spacing-spaced: 0.015625rem; /* 0.25px */
+
+    /* font utility classes */
+    --text-preset-1: normal normal var(--font-weight-semibold)
+                    var(--font-size-4)/var(--line-height-middle)
+                    'Poppins', sans-serif;
+    --text-preset-2: normal normal var(--font-weight-light)
+                    var(--font-size-4)/var(--line-height-middle)
+                    'Poppins', sans-serif;
+    --text-preset-3: normal normal var(--font-weight-semibold)
+                    var(--font-size-3)/var(--line-height-small)
+                    'Poppins', sans-serif;
+    --text-preset-4: normal normal var(--font-weight-regular)
+                    var(--font-size-2)/var(--line-height-middle)
+                    'Poppins', sans-serif;
+    --text-preset-5: normal normal var(--font-weight-regular)
+                    var(--font-size-1)/var(--line-height-large)
+                    'Poppins', sans-serif;
+}
+
+
 
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
