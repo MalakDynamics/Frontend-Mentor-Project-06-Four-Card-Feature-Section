@@ -112,7 +112,7 @@ body {
 .header__title,
 .header__subtitle {
   letter-spacing: var(--letter-spacing-spaced-large);
-  text-align: center;
+  text-align: justify;
 }
 .header__title {
   font: var(--text-preset-2);
@@ -137,7 +137,6 @@ body {
 .card {
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
 
     height: 15.625rem; /* 250px */
     border-radius: 0.5rem;
@@ -206,7 +205,9 @@ footer a {
     grid-template-rows: repeat(3, 1fr);
     grid-template-columns: repeat(2, 1fr);
   }
-  
+  .card {
+    width: clamp(19.625rem, 14.716rem + 10.227vw, 21.875rem);
+  }
   .card:nth-child(1) {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
@@ -231,13 +232,10 @@ footer a {
 }
 
 /* desktop format */
-@media screen and (min-width: 66.75rem) {
+@media screen and (min-width: 70rem) {
   .card-container {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-  }
-  .card {
-    width: 350px;
   }
   .card:nth-child(1) {
     grid-column: 1 / 2;
