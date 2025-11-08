@@ -98,8 +98,9 @@ body,
 
 body {
     height: 100vh;
-    gap: var(--spacing-6);
-    padding: 3.5rem clamp(0.125rem, -0.98rem + 6.316vw, 0.5rem);
+    gap: clamp(3.75rem, 3.277rem + 2.02vw, 4.625rem);
+    padding: clamp(3.5rem, 1.944rem + 6.638vw, 6.375rem)
+            clamp(0.125rem, -0.98rem + 6.316vw, 0.5rem);
 }
 
 .header {
@@ -235,7 +236,9 @@ footer a {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  
+  .card {
+    width: 350px;
+  }
   .card:nth-child(1) {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
