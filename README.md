@@ -21,13 +21,13 @@ This is my first foray into using grids, so that will be fun to explore. Far mor
 
 ### Screenshot
 
-<!-- <img src="./images/Desktop_Screenshot.png" width="600"> -->
+<img src="./images/Desktop_Screenshot.png" width="600">
 
 ## My process
 
 I will be starting with a mobile-first approach to this project and build out the mobile design before shifting to accomodate the desktop view. Preceded this build with some studying on grid properties, and I have an idea in mind of how I plan to approach this. Once again I will be leveraging clamped fonts. 
 
-I was exploring using `font` shorthand in CSS, but I sense that I am already running into issues as we use responsive design. I am not certain that I will retain this shorthand for the final version, but we chasll see.
+I was exploring using `font` shorthand in CSS, as well. slight need for override as I go was encounters, but was manageable for a project of this scope it seems.
 
 ### Built with
 
@@ -44,6 +44,7 @@ Additionally, I can see why people use Sass every time these css sheets start to
 ### Continued development
 
 11/7/25: Odds and ends for mobile need to be changed. Will add font resizing for mobile soon as well. Immediate focus is tweaks to make the larger formats shift.
+11/7/25 (evening): Grid was surprisingly easy to maniputlate! `justify-self: center` and `align-self: center` were definitely the MVPs for this project. 
 
 ## Author
 
